@@ -70,7 +70,7 @@
         </div>
         <div class="key-grid">
           <a
-            class="legend-key"
+            class="legend-key contact-action"
             data-key="email"
             href="mailto:GabrielRoer@icloud.com"
             aria-label="Send email"
@@ -78,7 +78,7 @@
             ><small>SEND MAIL</small></a
           >
           <a
-            class="legend-key emphasized"
+            class="legend-key emphasized contact-action vcard-key"
             href="contact.vcf"
             aria-label="Save contact to phone"
             ><span class="loop">1326</span><strong>SAVE CONTACT</strong
@@ -120,7 +120,7 @@
             ><small>ECLIPSE NMBU</small></a
           >
           <a
-            class="legend-key share-key"
+            class="legend-key contact-action share-key"
             href="https://vikinginorbit.github.io/CV/"
             data-share
             aria-label="Share this page"
@@ -135,14 +135,32 @@
         ><a href="#payloads">PAYLOADS</a><a href="#systems">SYSTEMS</a
         ><a href="#side-missions">SIDE MISSIONS</a><a href="#cv">CV</a>
       </nav>
-      <section id="about" class="crt panel" aria-labelledby="about-heading">
-        <div class="screen-label" id="about-heading">CRT / CREW PROFILE</div>
-        <p>
-          Applied Robotics student at NMBU. Elected CEO of Eclipse NMBU and
-          mission lead for the Eclipse rocket and Atlas2. I build embedded
-          systems, rockets and robots, and I like leading teams where everyone
-          gets to learn by doing. Electrical trades and space technology
-          background, winner of CanSat Norway 2022 with Team Trident.
+      <section
+        id="about"
+        class="crt panel"
+        aria-label="Crew profile terminal. Press Enter to load."
+        tabindex="0">
+        <div
+          class="crt-command"
+          aria-hidden="true"
+          data-command="Load /CrewProfile:Gabriel_Røer"></div>
+        <p class="crt-output">
+          <span
+            class="crt-line"
+            data-output="Applied Robotics student at NMBU."></span>
+          <span
+            class="crt-line"
+            data-output="Elected CEO of Eclipse NMBU and mission lead for the Eclipse rocket and Atlas2."></span>
+          <span
+            class="crt-line"
+            data-output="I build embedded systems, rockets and robots, and I like leading teams where everyone gets to learn by doing."></span>
+          <span
+            class="crt-line"
+            data-output="Electrical trades and space technology background, winner of CanSat Norway 2022 with Team Trident."></span>
+          <span class="crt-line" data-output="Fully loaded"></span>
+          <span class="crt-line crt-prompt"
+            >Z:Me/GR:<span class="crt-cursor" aria-hidden="true"></span
+          ></span>
         </p>
       </section>
       <section
