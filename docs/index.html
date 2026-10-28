@@ -45,7 +45,7 @@
         <div class="clock-caption">HR&nbsp;&nbsp;MIN&nbsp;&nbsp;SEC</div>
       </div>
       <div class="clock-group">
-        <div class="clock-label">TIF</div>
+        <div class="clock-label">TOF</div>
         <div class="clock" id="flight-clock" aria-label="Time in flight">
           00:00:00
         </div>
@@ -54,7 +54,7 @@
     </header>
     <main id="main" class="console">
       <section class="name-plate panel" aria-labelledby="name">
-        <p class="eyebrow">PERSONNEL / FLIGHT SYSTEMS</p>
+        <p class="eyebrow">FLIGHT SYSTEMS</p>
         <h1 id="name">GABRIEL RØER</h1>
         <p>APPLIED ROBOTICS, NMBU</p>
         <p>CEO ECLIPSE NMBU</p>
@@ -65,8 +65,8 @@
         aria-labelledby="contact-heading">
         <div class="section-heading">
           <span class="screw"></span>
-          <h2 id="contact-heading">CONTACT BOARD</h2>
-          <span class="section-code">GO / NO-GO POLL</span>
+          <h2 id="contact-heading">GO-NO-GO</h2>
+          <span class="section-code"></span>
         </div>
         <div class="key-grid">
           <a
@@ -135,29 +135,25 @@
         ><a href="#payloads">PAYLOADS</a><a href="#systems">SYSTEMS</a
         ><a href="#side-missions">SIDE MISSIONS</a><a href="#cv">CV</a>
       </nav>
-      <section
-        id="about"
-        class="crt panel"
-        aria-label="Crew profile terminal. Press Enter to load."
-        tabindex="0">
-        <div
-          class="crt-command"
-          aria-hidden="true"
-          data-command="Load /CrewProfile:Gabriel_Røer"></div>
+      <section id="about" class="crt panel" aria-label="Crew profile terminal">
+        <div class="crt-command">Load /CrewProfile:Gabriel_Røer</div>
         <p class="crt-output">
-          <span
-            class="crt-line"
-            data-output="Applied Robotics student at NMBU."></span>
-          <span
-            class="crt-line"
-            data-output="Elected CEO of Eclipse NMBU and mission lead for the Eclipse rocket and Atlas2."></span>
-          <span
-            class="crt-line"
-            data-output="I build embedded systems, rockets and robots, and I like leading teams where everyone gets to learn by doing."></span>
-          <span
-            class="crt-line"
-            data-output="Electrical trades and space technology background, winner of CanSat Norway 2022 with Team Trident."></span>
-          <span class="crt-line" data-output="Fully loaded"></span>
+          <span class="crt-line"
+            >00:00:00: Applied Robotics student at NMBU.</span
+          >
+          <span class="crt-line"
+            >00:00:00: Elected CEO of Eclipse NMBU and mission lead for the
+            Eclipse rocket and Atlas2.</span
+          >
+          <span class="crt-line"
+            >00:00:00: I build embedded systems, rockets and robots, and I like
+            leading teams where everyone gets to learn by doing.</span
+          >
+          <span class="crt-line"
+            >00:00:00: Electrical trades and space technology background, winner
+            of CanSat Norway 2022 with Team Trident.</span
+          >
+          <span class="crt-line">00:00:00: Fully loaded</span>
           <span class="crt-line crt-prompt"
             >Z:Me/GR:<span class="crt-cursor" aria-hidden="true"></span
           ></span>
@@ -347,7 +343,7 @@
         rel="noopener noreferrer"
         >REPOSITORY</a
       ><span>LAST UPDATED 2026-10-27</span><span>NO TRACKING. NO COOKIES.</span
-      ><span>TIF <b id="footer-flight">00:00:00</b></span>
+      ><span>TOF <b id="footer-flight">00:00:00</b></span>
     </footer>
     <script src="config.js"></script>
     <script src="script.js"></script>
