@@ -64,7 +64,6 @@
         class="contact-board panel"
         aria-labelledby="contact-heading">
         <div class="section-heading">
-          <span class="screw"></span>
           <h2 id="contact-heading">GO-NO-GO</h2>
           <span class="section-code"></span>
         </div>
@@ -136,14 +135,14 @@
         ><a href="#side-missions">SIDE MISSIONS</a><a href="#cv">CV</a>
       </nav>
       <section id="about" class="crt panel" aria-label="Crew profile terminal">
-        <div class="crt-command">Load /CrewProfile:Gabriel_Røer</div>
+        <div class="crt-command"><span class="crt-prompt-label">PS Z:\Terminal\GR&gt;</span> <span class="crt-command-text">Load /CrewProfile:Gabriel_Røer</span></div>
         <p class="crt-output">
           <span class="crt-line"
             >00:00:00: Applied Robotics student at NMBU.</span
           >
           <span class="crt-line"
-            >00:00:00: Elected CEO of Eclipse NMBU and mission lead for the
-            Eclipse rocket and Atlas2.</span
+            >00:00:00: Elected CEO of Eclipse NMBU and project lead for
+            studentraketten and Atlas2.</span
           >
           <span class="crt-line"
             >00:00:00: I build embedded systems, rockets and robots, and I like
@@ -155,7 +154,9 @@
           >
           <span class="crt-line">00:00:00: Fully loaded</span>
           <span class="crt-line crt-prompt"
-            >Z:Me/GR:<span class="crt-cursor" aria-hidden="true"></span
+            >PS Z:\Terminal\GR><span
+              class="crt-cursor"
+              aria-hidden="true"></span
           ></span>
         </p>
       </section>
@@ -168,18 +169,16 @@
         </div>
         <ol class="timeline">
           <li><b>30 SEP 2026</b><span>Elected CEO of Eclipse NMBU.</span></li>
+          <li><b>5 AUG 2026</b><span>Project lead for Atlas2.</span></li>
           <li>
-            <b>2026 TO PRESENT</b
-            ><span
-              >Project lead for studentraketten and Atlas2. Component lead for
-              Fenrir.</span
-            >
+            <b>29 MAY 2026</b><span>Project lead for studentraketten.</span>
           </li>
           <li>
-            <b>2025 TO 2026</b
+            <b>27 NOV 2025 TO SEP 2026</b
             ><span
-              >Fenrir firmware work with boot orchestration, fault handling,
-              clock tree, RTC, IWDG and register-level GPIO.</span
+              >Component lead for Fenrir. Fenrir firmware work with boot
+              orchestration, fault handling, clock tree, RTC, IWDG and
+              register-level GPIO.</span
             >
           </li>
           <li>
@@ -194,8 +193,11 @@
             >
           </li>
           <li>
-            <b>AUG 2019 TO PRESENT</b
-            ><span>Permanent employee at Kjeller’n Fritidssenter.</span>
+            <b>AUG 2022 TO AUG 2023</b
+            ><span
+              >National service, Air Defence Battalion, Forsvaret (Ørland and
+              Evenes).</span
+            >
           </li>
           <li>
             <b>2021 TO 2022</b
@@ -206,11 +208,16 @@
             >
           </li>
           <li>
-            <b>2020 TO 2022</b
-            ><span
-              >Vg2 Data and Electronics, followed by Vg3 Space Technology at
-              Andøy videregående skole.</span
-            >
+            <b>2021 TO 2022</b
+            ><span>Vg3 Space Technology, Andøy videregående skole.</span>
+          </li>
+          <li>
+            <b>2020 TO 2021</b
+            ><span>Vg2 Data and Electronics, Ås videregående skole.</span>
+          </li>
+          <li>
+            <b>AUG 2019 TO PRESENT</b
+            ><span>Permanent employee at Kjeller’n Fritidssenter.</span>
           </li>
           <li>
             <b>2014 TO 2021</b
@@ -224,7 +231,6 @@
       </section>
       <section id="payloads" class="payloads" aria-labelledby="payload-heading">
         <div class="section-heading payload-heading">
-          <span class="screw"></span>
           <h2 id="payload-heading">PAYLOADS</h2>
           <span class="section-code">MISSION HARDWARE</span>
         </div>
@@ -232,14 +238,18 @@
           <span class="loop-tag">2202</span>
           <h3>TEAM TRIDENT</h3>
           <p>CanSat Norway 2022. Founded and led the winning team.</p>
-          <a class="payload-link" href="https://vikinginorbit.github.io/CV/"
+          <a
+            class="payload-link"
+            href="https://matseslats.github.io/cansat-website/"
+            target="_blank"
+            rel="noopener noreferrer"
             >OPEN PROJECT SITE</a
           >
         </article>
         <article class="payload panel">
           <span class="loop-tag">2408</span>
           <h3>ECLIPSE NMBU ROCKET AND ATLAS2</h3>
-          <p>Mission lead at the NMBU student space organisation.</p>
+          <p>Project lead for studentraketten and Atlas2.</p>
           <a
             class="payload-link"
             href="https://eclipsenmbu.no"
@@ -274,7 +284,7 @@
         <div class="systems-grid">
           <div class="system-indicator">
             <i></i><b>PROGRAMMING</b
-            ><span>Python, C, C#, embedded C, SQL and LaTeX</span>
+            ><span>Python, C, C#, embedded C, MD and LaTeX</span>
           </div>
           <div class="system-indicator">
             <i></i><b>EMBEDDED SYSTEMS</b
@@ -314,7 +324,6 @@
         class="side-missions panel"
         aria-labelledby="side-heading">
         <div class="section-heading">
-          <span class="screw"></span>
           <h2 id="side-heading">SIDE MISSIONS</h2>
         </div>
         <p>Dungeons and Dragons.</p>
@@ -323,7 +332,6 @@
       </section>
       <section id="cv" class="cv-panel panel" aria-labelledby="cv-heading">
         <div class="section-heading">
-          <span class="screw"></span>
           <h2 id="cv-heading">CV / SOURCE PACKAGE</h2>
         </div>
         <a href="assets/Gabriel-Roer-CV.pdf">OPEN PDF</a
@@ -342,7 +350,7 @@
         target="_blank"
         rel="noopener noreferrer"
         >REPOSITORY</a
-      ><span>LAST UPDATED 2026-10-27</span><span>NO TRACKING. NO COOKIES.</span
+      ><span>LAST UPDATED 2026-10-30</span><span>NO TRACKING. NO COOKIES.</span
       ><span>TOF <b id="footer-flight">00:00:00</b></span>
     </footer>
     <script src="config.js"></script>
